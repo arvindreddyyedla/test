@@ -1,0 +1,7 @@
+enter no of tuples: 4
+enter values of tuple:1,2
+enter values of tuple:2,3
+enter values of tuple:3,4
+enter values of tuple:4,5
+enter the value to be removed: 2
+[(3, 4), (4, 5)]

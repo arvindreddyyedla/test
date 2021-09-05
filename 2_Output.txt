@@ -1,0 +1,18 @@
+Please enter the text file for open prices : openPrice.txt
+
+Please enter the text file for close prices : closePrice.txt
+
+Following is the dailyEarnings list: 
+
+ [12.080079, 15.209961, 4.679931, 11.819824, 5.040039, 0.140137, 2.679931, 14.590088, 16.060058, -22.540039] 
+
+
+Mean of Daily earnigns  =   5.976000899999999 
+
+
+Standard Deviation of DailyEarnings =  10.923408345627161 
+
+
+Dictionary of the daily earnings is following : 
+
+ {'one standard deviation': [12.080079, 15.209961, 4.679931, 11.819824, 5.040039, 0.140137, 2.679931, 14.590088, 16.060058], 'two standard deviation': [12.080079, 15.209961, 4.679931, 11.819824, 5.040039, 0.140137, 2.679931, 14.590088, 16.060058], 'three standard deviation': [12.080079, 15.209961, 4.679931, 11.819824, 5.040039, 0.140137, 2.679931, 14.590088, 16.060058, -22.540039]} 

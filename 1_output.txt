@@ -1,0 +1,26 @@
+Please enter email to validate : sona@gmail.com
+
+sona@gmail.com is valid email.
+Your domain name is gmail.com
+
+Press enter to provide more email ids or type 999 to exit: 
+
+Please enter email to validate : renu@_com
+
+renu@_com is not a valid email
+
+Press enter to provide more email ids or type 999 to exit: 
+
+Please enter email to validate : anu@yahoo.com
+
+anu@yahoo.com is valid email.
+Your domain name is yahoo.com
+
+Press enter to provide more email ids or type 999 to exit: skandela1s@semo.edu
+
+Please enter email to validate : skandela1s@semo.edu
+
+skandela1s@semo.edu is valid email.
+Your domain name is semo.edu
+
+Press enter to provide more email ids or type 999 to exit: 
