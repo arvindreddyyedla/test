@@ -1,0 +1,43 @@
+Test case 1
+The open prices of SP500 between July 16,2021 to August 2,2021 are listed below
+4367.43, 4296.40, 4265.11, 4331.13, 4361.27, 4381.20, 4409.58, 4416.38, 4402.95, 4403.59, 4395.12, 4406.86 
+
+The close prices of SP500 between July 16,2021 to August 2,2021 are listed below
+4327.16, 4258.49, 4323.06, 4358.69, 4367.48, 4411.79, 4422.30, 4401.46, 4400.64, 4419.15, 4395.26, 4387.16
+
+Expected output
+DailyEarnings list:  [-40.27, -37.91, 57.95, 27.56, 6.21, 30.59, 12.72, -14.92, -2.31, 15.56, 0.14, -19.7] 
+Mean of Daily earnings  =   2.968
+Standard Deviation of DailyEarnings =  27.485
+Dictionary of the daily earnings is following : 
+ {'one standard deviation': [27.56, 6.21, 12.72, -14.92, -2.31, 15.56, 0.14, -19.7], 'two standard deviation': [-40.27, -37.91, 27.56, 6.21, 30.59, 12.72, -14.92, -2.31, 15.56, 0.14, -19.7], 'three standard deviation': [-40.27, -37.91, 57.95, 27.56, 6.21, 30.59, 12.72, -14.92, -2.31, 15.56, 0.14, -19.7]}
+
+Actual Output
+DailyEarnings list: [-40.27, -37.91, 57.95, 27.56, 6.21, 30.59, 12.72, -14.92, -2.31, 15.56, 0.14, -19.7] 
+Mean of Daily earnings  =   2.9683333333333324 
+Standard Deviation of DailyEarnings =  27.485058617769443 
+Dictionary of the daily earnings is following : 
+ {'one standard deviation': [27.56, 6.21, 12.72, -14.92, -2.31, 15.56, 0.14, -19.7], 'two standard deviation': [-40.27, -37.91, 27.56, 6.21, 30.59, 12.72, -14.92, -2.31, 15.56, 0.14, -19.7], 'three standard deviation': [-40.27, -37.91, 57.95, 27.56, 6.21, 30.59, 12.72, -14.92, -2.31, 15.56, 0.14, -19.7]}
+Pass/fail : Pass
+Test case 2
+
+The open prices of SP500 between June 11, 2021, and June 22, 2021, are listed below
+4242.90, 4248.31, 4255.28, 4248.87, 4220.37, 4204.78, 4173.40, 4224.61,
+
+The close prices of SP500 between June 11, 2021, and June 22, 2021,are listed below
+4247.44, 4255.15, 4246.59, 4223.70, 4221.86, 4166.45, 4224.79, 4246.44
+
+Expected output
+Daily Earnings list:  [4.54, 6.84, -8.69, -25.17, 1.49, -38.33, 51.39, 21.83] 
+Mean of Daily earnings  =   1.73
+Standard Deviation of Daily Earnings =  25.83
+Dictionary of the daily earnings:
+ {'one standard deviation': [4.54, 6.84, -8.69, 1.49, 21.83], 'two standard deviation': [4.54, 6.84, -8.69, -25.17, 1.49, -38.33, 51.39, 21.83], 'three standard deviation': [4.54, 6.84, -8.69, -25.17, 1.49, -38.33, 51.39, 21.83]}
+
+Actual output
+Following is the dailyEarnings list: [4.54, 6.84, -8.69, -25.17, 1.49, -38.33, 51.39, 21.83] 
+Mean of Daily earnings  =   1.737499999999999 
+Standard Deviation of DailyEarnings =  25.838878047430775 
+Dictionary of the daily earnings is following : 
+ {'one standard deviation': [4.54, 6.84, -8.69, 1.49, 21.83], 'two standard deviation': [4.54, 6.84, -8.69, -25.17, 1.49, -38.33, 51.39, 21.83], 'three standard deviation': [4.54, 6.84, -8.69, -25.17, 1.49, -38.33, 51.39, 21.83]}
+Pass/fail : Pass

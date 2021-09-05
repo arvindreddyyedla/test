@@ -1,0 +1,27 @@
+Test case 1	
+John@gmail.com
+Expected output
+John@gmail.com is valid email,
+your domain name is gmail.com
+Actual output
+John@gmail.com is valid email,
+your domain name is gmail.com
+Pass/fail : Pass
+
+Test case 2
+renu@_com
+Expected output
+renu@_com is not an invalid email
+Actual output
+renu@_com is not an invalid email
+Pass/fail : Pass
+
+Test case 3
+anu@yahoo.com
+Expected output
+anu@yahoo.com is valid email
+your domain name is yahoo.com
+Actual output
+anu@yahoo.com is valid email
+your domain name is yahoo.com
+Pass/fail : Pass
